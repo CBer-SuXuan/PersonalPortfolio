@@ -12,7 +12,7 @@ Details are as followed:
 - **LoginTeleport**: You can **edit the position when player join the server** using command.
 - **RankAdvanced**: The plugin made for one server. The characteristic of this plugin is that you can use three different ways to store data. Include yaml files, SQLite and MySQL. Because this is made for server, rank name is already known. Player can get points by using command. And if they get enought points, they will get a new rank.
 - **RecordBlock**: This plugin **record the amount of every player break and place blocks**. It will record every 6 hours in different files.
-- **Survey**: This plugin can **give players survey** when they kill enough players. You can modify questions and survey interval times. And the answer will save to the MySQL. By using this plugin, you can get players' thinking easily.
+- **Survey**: This plugin can **give players survey** when they kill enough players. You can modify questions and survey interval times. And the answer will save to the MySQL. By using this plugin, you can get players' thinking easily. If player quit the server when doing survey, they can continue the survey when they rejoin the game!
 
 Because I am Chinese, some plugins contain Chinese character. If you can't understand, contact me with Discord "cber_suxuan".
 
