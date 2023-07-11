@@ -1,0 +1,59 @@
+# Don't Edit this
+Version: 1
+
+# Run command "/rank reload" to reload this settings after making changes
+
+# There three ways to store data, choose one and set other "use" to false
+# YAML file: Use .yml files to store every player data. Every file will be named with the UUID
+Yaml:
+  Use: false
+  # You need to specify the folder to store these files
+  Folder-Name: "players"
+
+# SQLite is a lightweight database. It will store data in local .db file, and there is no need to type any password.
+SQLite:
+  Use: false
+  # You need to specify the file name.
+  File-Name: "player"
+
+# MySQL: Store data in the MySQL, highly recommend.
+MySQL:
+  Use: false
+  # Use ";" to split HOST and PORT
+  Host-Port: "localhost;3306"
+  # Use ";" to split USER and PASSWORD
+  User-Password: "root;root"
+  # The name of the database. You can use an existing database, or creat new one for minecraft
+  Database: "minecraft"
+  # The name of the table to store data
+  Table: "player"
+
+# Send to the player when tier up or vessel up
+Up-Message: "&aYou have been promoted to {vessel} Tier {tier}"
+# Send to the player when reached to the top vessel and tier
+Top-Message: "&aYou have reached to the top vessel"
+
+# Type all vessel name here to modify easily
+# Use ";" to split name and LuckPerm group each vessel. If there is no group, only need "none".
+Vessel-Name:
+  - Mortal;none
+  - Yi meeting;none
+  - Cooked Bone;none
+  - Middle Extremity;none
+  - Origin Pass;none
+  - Sea of Qi;none
+  - Middle Chest;none
+  - Jade Hall;none
+  - Violet Palace;none
+  - Jade Rotator;none
+  - Azure Horizon;none
+  - Long and rigid vessel;none
+  - Life gate;none
+  - Central pivot;none
+  - Spirit platform;none
+  - Spirit's way;none
+  - Wind palace;none
+  - Hundred Meetings;none
+  - Spirit courtyard;none
+  - End exchange;none
+  - Spirit body reformation;none
