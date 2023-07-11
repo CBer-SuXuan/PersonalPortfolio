@@ -1,0 +1,10 @@
+name: Survey
+version: '${project.version}'
+main: me.suxuan.survey.SurveyPlugin
+api-version: '1.20'
+authors: [ CBer_SuXuan ]
+commands:
+  survey:
+    description: Survey plugin main command
+    aliases:
+      - sv
