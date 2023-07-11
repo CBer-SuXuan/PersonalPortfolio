@@ -1,0 +1,5 @@
+name: RecordBlock
+version: '${project.version}'
+main: me.suxuan.recordblock.RecordBlock
+api-version: 1.18
+authors: [ CBer_SuXuan ]
