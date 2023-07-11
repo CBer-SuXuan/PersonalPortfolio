@@ -10,6 +10,7 @@ Details are as followed:
 - **JoinReward**: You can **give items** to the player who is **new to the server** by this plugin. Easy to config and very useful for server.
 - **LoginReward**: Not the same as JoinReward, you can **give items** to a **specified player** when he join the server(old player or new player). When a player is offline, you can set items that you want to give to him. When he **join the server, he will get the items that you set**. You can both use command or modify file to change each player items list.
 - **LoginTeleport**: You can **edit the position when player join the server** using command.
+- **RankAdvanced**: The plugin made for one server. The characteristic of this plugin is that you can use three different ways to store data. Include yaml files, SQLite and MySQL. Because this is made for server, rank name is already known. Player can get points by using command. And if they get enought points, they will get a new rank.
 - **RecordBlock**: This plugin **record the amount of every player break and place blocks**. It will record every 6 hours in different files.
 
 Because I am Chinese, some plugins contain Chinese character. If you can't understand, contact me with Discord "cber_suxuan".
