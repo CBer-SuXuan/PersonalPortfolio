@@ -1,0 +1,50 @@
+load_message: '§d§l邀请码插件成功加载！'
+copy_message: '§a§l点击此处复制邀请码！'
+show_message: '§9§l你的邀请码是：§6§l%ic_code%§9§l， 邀请码使用次数为：§6§l%ic_times%§9§l次！'
+get_message: '§9§l该玩家的邀请码是：§6§l%ic_code%§9§l， 邀请码使用次数为：§6§l%ic_times%§9§l次！'
+reload_message: '§a§l邀请码插件重载成功！'
+reward_message: '§6§l奖励已经发放！'
+command_wrong_message: '§4§l您输入的指令不正确，请使用§e§l/ic help§4§l查看所有指令！'
+nocode_noexist_message: '§4§l该玩家还没有获得自己的邀请码或者不存在！'
+reset_times_message: '§a§l已重置该玩家邀请码使用次数！'
+reset_used_message: '§a§l已将该玩家设置为未输入邀请码状态！'
+code_noused_message: '§4§l该玩家的邀请码没有被用过！'
+code_noinput_message: '§4§l该玩家还未使用过邀请码！'
+force_new_message: '§5§l已将该玩家强制设置为§a§l新玩家§5§l！'
+cancel_force_new_message: '§5§l已将该玩家§a§l取消为新玩家§5§l！'
+already_new_message: '§4§l该玩家已经强制为新玩家了，无法设置老玩家！'
+force_old_message: '§5§l已将该玩家强制设置为§3§l老玩家§5§l！'
+cancel_force_old_message: '§5§l已将该玩家§3§l取消为老玩家§5§l！'
+already_old_message: '§4§l该玩家已经强制为老玩家了，无法设置新玩家！'
+not_old_message: '§4§l你还不是老玩家，无法获取邀请码！'
+no_assess_message: '§4§l你没有权限查看别人的邀请码！'
+plus_one_message: '§a§l已将该玩家邀请码使用次数§6§l+1§a§l，当前该玩家邀请码使用次数为：§6§l%ic_times%§a§l次！'
+already_old_player_wrong: '§4§l你已经是老玩家了，不能够使用验证码，请把你的邀请码发给更多的新玩家！'
+already_new_player_wrong: '§4§l你已经输入过邀请码了,不能够再次使用！'
+code_wrong_message: '§4§l邀请码不存在！'
+input_code_message: '§a§l你输入了来自§3§l老玩家§9§l%ic_isold%§a§l的验证码！'
+add_success_message: '§a§l添加成功，当前玩家邀请码使用次数为：§6§l%ic_times%§a§l次！'
+add_wrong_message: '§4§l请输入需要增加的数量！'
+number_wrong_message: '§4§l请输入正确的数字！'
+take_success_message: '§a§l减少成功，当前玩家邀请码使用次数为：§6§l%ic_times%§a§l次！'
+take_wrong_message: '§4§l请输入需要减少的数量！'
+take_over_message: '§4§l修改后邀请码使用次数小于0（原§6§l%ic_times%§4§l），请重新输入!'
+remove_message: '§a§l邀请码删除成功'
+help_op_message: "§7§l以下是如何使用命令：\n
+                  §6§l/ic add <player> <amount>：§f§l添加某玩家邀请码使用数量（需要是§c§l§c§lOP§f§l）\n
+                  §6§l/ic get: §f§l获取邀请码（需要是§3§l老玩家§f§l）\n
+                  §6§l/ic get <player>: §f§l获取某玩家的邀请码（需要是§c§lOP§f§l）\n
+                  §6§l/ic help: §f§l展示插件命令帮助\n
+                  §6§l/ic new: §f§l强制设置为新玩家（需要是§c§lOP§f§l）\n
+                  §6§l/ic old: §f§l强制设置为老玩家（需要是§c§lOP§f§l）\n
+                  §6§l/ic reload: §f§l重载插件（需要是§c§lOP§f§l）\n
+                  §6§l/ic remove <player>: §f§l删除某玩家邀请码（需要是§c§lOP§f§l）\n
+                  §6§l/ic reset <player> times: §f§l重置邀请码使用次数（需要是§c§lOP§f§l）\n
+                  §6§l/ic reset <player> used: §f§l重置某玩家为未使用邀请码状态（需要是§c§lOP§f§l）\n
+                  §6§l/ic take <player> <amount>: §f§l减少某玩家邀请码使用数量（需要是§c§lOP§f§l）\n
+                  §6§l/ic test <player>: §f§l将某玩家邀请码使用数量加1（用来测试奖励,需要是§c§lOP§f§l）\n
+                  §6§l/ic <code>: §f§l输入老玩家的邀请码（需要是§a§l新玩家§f§l）"
+help_player_message: "§7§l以下是如何使用命令：\n
+                      §6§l/ic get: §f§l获取邀请码（需要是§3§l老玩家§f§l）\n
+                      §6§l/ic help: §f§l展示插件命令帮助\n
+                      §6§l/ic <code>: §f§l输入老玩家的邀请码（需要是§a§l新玩家§f§l）"

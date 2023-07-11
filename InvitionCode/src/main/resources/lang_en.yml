@@ -1,0 +1,50 @@
+load_message: '§d§lInvitation Code Plugin has already been loaded successfully!'
+copy_message: '§a§lClick here to copy the invitation code!'
+show_message: '§9§lYour invitation code is: §6§l%ic_code%§9§l, invitation code used time are: §6§l%ic_times%§9§l times!'
+get_message: '§9§lThe invitation code of this player is: §6§l%ic_code%§9§l, invitation code used time are: §6§l%ic_times%§9§l times!'
+reload_message: '§a§lInvitation code plugin reload successful!'
+reward_message: '§6§lThe reward has been given!'
+command_wrong_message: '§4§lThe command you input is wrong, please use §e§l/ic test§4§l to view all commands!'
+nocode_noexist_message: '§4§lThe player has not yet obtained his invitation code or does not exist!'
+reset_times_message: '§a§lThe number of times the invitation code is used has been reset!'
+reset_used_message: '§a§lThe player has been set to no input invitation code state!'
+code_noused_message: '§4§lThe invitation code of this player has not been used!'
+code_noinput_message: '§4§lThis player has not yet used the invitation code!'
+force_new_message: '§5§lThis player has been forced to be a §a§lnew player§5§l!'
+cancel_force_new_message: '§5§lThis player has been §a§lcancelled as a new player§5§l!'
+already_new_message: '§4§lThis player has already been forced to be a new player, cannot set to old player!'
+force_old_message: '§5§lThis player has been forced to be an §3§lold player§5§l!'
+cancel_force_old_message: '§5§lThis player has been §3§lcancelled as an old player§5§l!'
+already_old_message: '§4§lThis player has already been forced to be an old player, cannot set to new player!'
+not_old_message: '§4§lYou are not old enough to get an invitation code!'
+no_access_message: '§4§lYou do not have access to other invitation codes!'
+plus_one_message: '§a§lThe usage times of the player invitation code §6§l+1§a§l has been set, The current usage times of the player invitation code are: §6§l%ic_times%§a§l times!'
+already_old_player_wrong: '§4§lYou are already an old player and cannot input invitation code. Please send your invitation code to more new players!'
+already_new_player_wrong: '§4§lYou have input the invitation code, can not input again!'
+code_wrong_message: '§4§lInvitation code does not exist!'
+input_code_message: '§3§lYou input the invitation code from §3§lold player §9§l%ic_isold%§2§l!'
+add_success_message: '§a§lAdd success, player times of the invitation code used are: §6§l%ic_times%§a§l times!'
+add_wrong_message: '§4§lPlease input the amount to be increased!'
+number_wrong_message: '§4§lPlease input correct number!'
+take_success_message: '§a§lTake success, player times of the invitation code used are: §6§l%ic_times%§a§l times!'
+take_wrong_message: '§4§lPlease input the amount to be decreased!'
+take_over_message: '§4§lAfter the change the number of invitation code used is less than 0(original §6§l%ic_times%§4§l), please re-input!'
+remove_message: '§a§lRemove invitation code successfully'
+help_op_message: "§7§lHere is how to use command:\n
+                  §6§l/ic add <player> <amount>: §f§lAdd the number of invitation codes used amount(Need to be §c§l§c§lOP§f§l)\n
+                  §6§l/ic get: §f§lShow invitation code (Need to be §3§lOld Player§f§l)\n
+                  §6§l/ic get <player>: §f§lShow certain player invitation code (Need to be §c§lOP§f§l)\n
+                  §6§l/ic help: §f§lDisplay the plugin command usage help\n
+                  §6§l/ic new: §f§lForce to be new player (Need to be §c§lOP§f§l)\n
+                  §6§l/ic old: §f§lForce to be old player (Need to be §c§lOP§f§l)\n
+                  §6§l/ic reload: §f§lReload this plugin (Need to be §c§lOP§f§l)\n
+                  §6§l/ic remove <player>: §f§lRemove invitation code (Need to be §c§lOP§f§l)\n
+                  §6§l/ic reset <player> times: §f§lReset invitation code used amount (Need to be §c§lOP§f§l)\n
+                  §6§l/ic reset <player> used: §f§lSet to the state that no invitation code has been input (Need to be §c§lOP§f§l)\n
+                  §6§l/ic take <player> <amount>: §f§lReduced invitation codes used amount (Need to be §c§lOP§f§l)\n
+                  §6§l/ic test <player>: §f§lPlus 1 to the invitation codes used amount (Used to test rewards, Need to be §c§lOP§f§l)\n
+                  §6§l/ic <code>: §f§lInput old player's invitation code (Need to be §a§lNew Player§f§l)"
+help_player_message: "§7§lHere is how to use command:\n
+                      §6§l/ic get: §f§lShow invitation code (Need to be §3§lOld Player§f§l)\n
+                      §6§l/ic help: §f§lDisplay the plugin command usage help\n
+                      §6§l/ic <code>: §f§lInput old player's invitation code (Need to be §a§lNew Player§f§l)"

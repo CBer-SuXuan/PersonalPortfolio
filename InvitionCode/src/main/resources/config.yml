@@ -1,0 +1,18 @@
+# Set a time limit for older players (Hour).
+time_as_old_player: 24
+
+# Set the reward command that the players get (No need "/", support papi).
+# %ic_old% : Represent old player name
+# %ic_new% : Represent new player name
+# %ic_isold% : Whether this player is old player,
+# %ic_isnew% : Whether this player is new player,
+# %ic_time% : Represent the player registration time to the present time,
+# %ic_times% : Represent the old player's invitation code used time,
+# %ic_code% : Represent the old player's invitation code,
+# %ic_invited% : Represent whether a player used others code, true or false.
+rewards:
+  - give %ic_old% diamond %ic_times%
+  - give %ic_new% diamond 1
+
+# Type in the name of the language file you'd like to use. E.g. 'lang_en'
+language: 'lang_zh'

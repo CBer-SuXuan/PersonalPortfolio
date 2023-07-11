@@ -1,0 +1,15 @@
+# Version不要修改
+# Is_Empty不用管
+# 把允许使用指令的玩家姓名输入到Allowed_Players列表中
+
+Version: 1
+Is_Empty: true
+Location:
+  World: world
+  X: 0
+  Y: 0
+  Z: 0
+  Yaw: 0
+  Pitch: 0
+Allowed_Players:
+  - CBer_SuXuan

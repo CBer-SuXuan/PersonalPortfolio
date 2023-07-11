@@ -1,0 +1,11 @@
+name: InvitationCodePlugin
+version: '${project.version}'
+main: me.littleme.invitationcodeplugin.InvitationCodePlugin
+api-version: 1.19
+authors: [ Little_Me666 ]
+description: Add new thing --> /* invitation code */
+website: https://citrusmc.com/
+depend: [PlaceholderAPI]
+commands:
+  ic:
+    description: 输入/ic help获取所有插件命令帮助

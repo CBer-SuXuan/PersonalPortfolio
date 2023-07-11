@@ -1,0 +1,10 @@
+# 需要给予玩家的物品以及数量，用“;”隔开
+Give_Items:
+  - iron_helmet;1
+  - iron_chestplate;1
+  - iron_leggings;1
+  - iron_boots;1
+  - apple;32
+
+# 不要修改
+Version: 1

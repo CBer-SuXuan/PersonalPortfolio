@@ -1,0 +1,20 @@
+# 是否启用“牺牲服务器ping(×)，换取更好的服务器介绍”
+Use_Advanced: false
+
+# 如果上面选择false，则修改该内容，如果为true，修改下一内容
+Max_Players: 200
+
+# 当前玩家数和最大玩家数，用{current_players}代表当前玩家数，用字符串
+Player_Message: "&a&l{current_players}&f&l/&9&l200"
+
+# MOTD
+MOTD: "&cTest"
+
+# 悬浮信息，利用\n换行
+Hover_Message: "&cTest1\nTest2"
+
+# 服务器图标前的字，如果发现和图标重合，可以在后面加入适当空格
+Front_Message: "这个服务器好玩->"
+
+# 不要动这个
+Version: 1
