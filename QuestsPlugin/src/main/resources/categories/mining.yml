@@ -1,0 +1,9 @@
+Position: "1;2;3"
+Name: "Mining Category"
+Icon: "diamond_ore"
+Details:
+  - "Click to view the mining quest!"
+Quests:
+  - "break"
+  - "diamond"
+Glowing: true

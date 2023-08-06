@@ -1,0 +1,76 @@
+# You can keep this file or delete, it will not save in the memory. You can use "&" to change color and style
+
+# "Unaccepted": the item config of player who not accepts this quest
+# "Name": the name of this item
+# "Icon": the material of this item
+# "Details": the lore of this item
+# "Glowing": true if item looks "shiny"
+Unaccepted:
+  Name: ""
+  Icon: ""
+  Details:
+    - ""
+  Glowing:
+
+# "Accepted": the item config of player who is doing this quest
+# "Name": the name of this item
+# "Icon": the material of this item
+# "Details": the lore of this item, you can use custom placeholder in here
+# "Glowing": true if item looks "shiny"
+Accepted:
+  Name: ""
+  Icon: ""
+  Details:
+    - ""
+  Glowing:
+
+# "Finished": the item config of player who finished this quest
+# "Name": the name of this item
+# "Icon": the material of this item
+# "Details": the lore of this item
+# "Glowing": true if item looks "shiny"
+Finished:
+  Name: ""
+  Icon: ""
+  Details:
+    - ""
+  Glowing:
+
+# "Action": the actions of this quest need to be done
+# "Break": this quest need to break enough blocks
+# "Kill": this quest need to kill enough mobs
+# "Catch": this quest need to catch enough fish
+# The list of each one is "type;number;placeholder":
+#    "type": the name of this block/mob/fish
+#    "number": the require amount of this block/mob/dish
+#    "placeholder": you can set custom placeholder such as {test}, it will automatically change the current progress of
+#                   block/mob/fish number. After customizing you can use this in Accepted.Details.
+Actions:
+  Break:
+    - ""
+  Kill:
+    - ""
+  Catch:
+    - ""
+
+# "Rewards": the list of rewards give to the player after finish quest. Don't add "/". Use {player} as the player.
+Rewards:
+  - ""
+
+# "Position": the page, row and column in the menu, use ";" to split.
+Position: ""
+
+# "Start": you can set message and sound when player start this quest.
+Start:
+  Message: ""
+  Sound: ""
+
+# "Complete": you can set message and sound when player complete this quest.
+Complete:
+  Message: ""
+  Sound: ""
+
+# "Repeatable": true if this quest can reset after completing.
+Repeatable: true
+
+# All sounds are in  https://github.com/CBer-SuXuan/All-Sound

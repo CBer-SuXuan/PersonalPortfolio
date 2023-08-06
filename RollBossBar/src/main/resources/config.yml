@@ -1,0 +1,16 @@
+# 间隔时间(秒)
+Interval: 10
+
+# 整体格式：文本;颜色;样式
+# 颜色有PINK,BLUE,RED,GREEN,YELLOW,PURPLE,WHITE
+# 样式有SOLID(不分割),SEG6(六等分),SEG10,SEG12,SEG20
+Texts:
+  - "&3&lWelcome, &6&l%NAME%;GREEN;SEG6"
+  - "&4&lTPS : %TPS%;RED;SOLID"
+  - "&5&l%X%  %Y%  %Z%;BLUE;SEG12"
+
+# 能看见bossbar的世界
+world: "world"
+
+# 不要修改
+Version: 1

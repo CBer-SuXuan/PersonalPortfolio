@@ -1,0 +1,47 @@
+Unaccepted:
+  Name: "&d&lKill and Mine"
+  Icon: "green_wool"
+  Details:
+    - "&b&lMine 50 diamond ores"
+    - "&b&lKill 10 zombies and 5 creepers"
+    - "&b&lYou will get&6&l 20 diamonds"
+    - "&b&lClick to get the quest"
+  Glowing: true
+Accepted:
+  Name: "[Doing]&d&lKill and Mine"
+  Icon: "yellow_wool"
+  Details:
+    - "&b&lMine 50 diamond ores"
+    - "&b&lKill 10 zombies and 5 creepers"
+    - ""
+    - "Quest progress:"
+    - "{diamond}/50 diamond ores"
+    - "{zombie}/10 zombies"
+    - "{creeper}/5 creepers"
+    - ""
+    - "&b&lYou will get&6&l 20 diamonds"
+    - "&8&lThis quest is doing!"
+    - "&c&lRight click to cancel the quest"
+  Glowing: true
+Finished:
+  Name: "[Finished]&d&lKill and Mine"
+  Icon: "barrier"
+  Details:
+    - "&7&lThis quest is done"
+  Glowing: true
+Actions:
+  Break:
+    - "Diamond_Ore;50;{diamond}"
+  Kill:
+    - "Zombie;10;{zombie}"
+    - "Creeper;5;{creeper}"
+Rewards:
+  - "give {player} diamond 20"
+Position: "1;2;3"
+Start:
+  Message: "&6&lStart the &d&lKill and Mine &6&lquest!"
+  Sound: "SUCCESSFUL_HIT"
+Complete:
+  Message: "&6&lCongratulation, you have finished the quest &d&lKill and Mine"
+  Sound: "SUCCESSFUL_HIT"
+Repeatable: false

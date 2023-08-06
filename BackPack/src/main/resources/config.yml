@@ -1,0 +1,33 @@
+Items:
+  1:
+    Type: "white_bed"
+    Name: "&&lbFirst Pack"
+    Lore:
+      - "The first backpack"
+      - "Easy but practical"
+    Model_Data: 0
+    Size: 1
+    Command_Name: "first"
+    Menu_Title: "First BackPack"
+  2:
+    Type: "lime_bed"
+    Name: "&a&lSecond Pack"
+    Lore:
+      - "The second backpack"
+      - "Update a bit"
+    Model_Data: 100
+    Size: 2
+    Command_Name: "second"
+    Menu_Title: "Second BackPack"
+  3:
+    Type: "light_blue_bed"
+    Name: "&9&lThird Pack"
+    Lore:
+      - "Very useful!"
+    Model_Data: 200
+    Size: 3
+    Command_Name: "third"
+    Menu_Title: "Third BackPack"
+
+# Do not edit!
+Version: 1

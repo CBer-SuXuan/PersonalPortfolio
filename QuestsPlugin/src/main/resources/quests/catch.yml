@@ -1,0 +1,40 @@
+Unaccepted:
+  Name: "&3&lFish man"
+  Icon: "emerald_block"
+  Details:
+    - "&b&lCatch 10 cod"
+    - "&b&lYou will get &6&l5 diamonds"
+    - "&b&lClick to get the quest"
+  Glowing: true
+Accepted:
+  Name: "[Doing]&3&lFish man"
+  Icon: "gold_block"
+  Details:
+    - "&b&lCatch 10 cods"
+    - ""
+    - "Quest progress:"
+    - "{cod}/10 cods"
+    - ""
+    - "&b&lYou will get &6&l5 diamonds"
+    - "&8&lThis quest is doing!"
+    - "&c&lRight click to cancel the quest"
+  Glowing: true
+Finished:
+  Name: "[Finished]&3&lFish man"
+  Icon: "redstone_block"
+  Details:
+    - "&7&lThis quest is done"
+  Glowing: true
+Actions:
+  Catch:
+    - "cod;10;{cod}"
+Rewards:
+  - "give {player} diamond 5"
+Position: "1;2;4"
+Start:
+  Message: "&6&lStart the &3&lFish man &6&lquest!"
+  Sound: "SUCCESSFUL_HIT"
+Complete:
+  Message: "&6&lCongratulation, you have finished the quest &3&lFish man"
+  Sound: "SUCCESSFUL_HIT"
+Repeatable: false

@@ -1,0 +1,40 @@
+Unaccepted:
+  Name: "&1&lBreak!!!!!"
+  Icon: "lime_wool"
+  Details:
+    - "&b&lMine 100 iron ores"
+    - "&b&lYou will get &6&l10 diamonds"
+    - "&b&lClick to get the quest"
+  Glowing: true
+Accepted:
+  Name: "[Doing]&1&lBreak!!!!!"
+  Icon: "magenta_wool"
+  Details:
+    - "&b&lMine 100 iron ores"
+    - ""
+    - "Quest progress:"
+    - "{iron_ore}/100 iron ores"
+    - ""
+    - "&b&lYou will get &6&l10 diamonds"
+    - "&8&lThis quest is doing!"
+    - "&c&lRight click to cancel the quest"
+  Glowing: true
+Finished:
+  Name: "[Finished]&1&lBreak!!!!!"
+  Icon: "red_wool"
+  Details:
+    - "&7&lThis quest is done"
+  Glowing: true
+Actions:
+  Break:
+    - "iron_ore;100;{iron_ore}"
+Rewards:
+  - "give {player} diamond 10"
+Position: "1;2;2"
+Start:
+  Message: "&6&lStart the &1&lBreak!!!!! &6&lquest!"
+  Sound: "SUCCESSFUL_HIT"
+Complete:
+  Message: "&6&lCongratulation, you have finished the quest &1&lBreak!!!!!"
+  Sound: "SUCCESSFUL_HIT"
+Repeatable: true

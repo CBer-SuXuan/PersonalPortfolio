@@ -1,0 +1,8 @@
+Position: "2;2;3"
+Name: "Killing Category"
+Icon: "diamond_sword"
+Details:
+  - "Click to view the killing quest!"
+Quests:
+  - "break_kill"
+Glowing: true

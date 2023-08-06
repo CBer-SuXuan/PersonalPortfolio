@@ -1,0 +1,15 @@
+# "Position": the position of this category, use ";" split page, row and column
+# "Name": the name of this category button
+# "Icon": the material of this category button
+# "Details": the lore of this category button
+# "Quests": the quests under this category, must use the file name in quests folder
+# "Glowing": true if item looks "shiny"
+Position: ""
+Name: ""
+Icon: ""
+Details:
+  - ""
+Quests:
+  - ""
+  - ""
+Glowing:

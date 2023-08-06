@@ -1,0 +1,151 @@
+# ----------------------------------------Main Menu config---------------------------------------------------
+# Main menu shows all categories.
+# You can set details to empty(- ""), and this button will not have lore.
+#====================================All field=======================================
+# "Size": the row of main menu.
+# "Title": the title showed of main menu. Can use {page} represent current page, default is 1.
+# "Surround": config of surround item.
+#    "Use": set false if you don't want to use surrounding.
+#    "Name": name of surrounding item.
+#    "Icon": material of surrounding item.
+#    "Details": lore of surrounding item.
+# "Next_Page": if there are more pages of main menu, it will add next page button.
+#    "Position": the position of button, use ";" split row and column.
+#    "Name", "Icon", "Details" are same as above.
+# "Last_Page": if there are more pages of main menu, it will add last page button.
+# "No_Next_Page": if there are more pages of main menu, and shows last page, it will add no next page button.
+# "No_Last_Page": if there are more pages of main menu, and shows first page, it will add no last page button.
+# ==================================================================================
+Menu:
+  Size: 3
+  Title: "&9&lCategories list {page}"
+  Surround:
+    Use: true
+    Name: "Line!"
+    Icon: "gray_stained_glass_pane"
+    Details:
+      - "This is only surround line"
+    Glowing: true
+  Next_Page:
+    Position: "3;7"
+    Name: "Click to next page"
+    Icon: "yellow_stained_glass_pane"
+    Details:
+      - ""
+    Glowing: true
+  Last_Page:
+    Position: "3;3"
+    Name: "Click to last page"
+    Icon: "yellow_stained_glass_pane"
+    Details:
+      - ""
+    Glowing: true
+  No_Next_Page:
+    Position: "3;7"
+    Name: "No next page"
+    Icon: "red_stained_glass_pane"
+    Details:
+      - ""
+    Glowing: true
+  No_Last_Page:
+    Position: "3;3"
+    Name: "No last page"
+    Icon: "red_stained_glass_pane"
+    Details:
+      - ""
+    Glowing: true
+
+# ----------------------------------------------------------------------------------------------------------
+
+# ----------------------------------------Sub Menu config---------------------------------------------------
+# Sub menu is the quests showed under every category.
+# You can set details to empty(- ""), and this button will not have lore.
+#====================================All field=======================================
+# "Size": the row of sub menu.
+# "Title": the title showed of sub menu. Can use {page} represent current page, default is 1.
+# "Surround": config of surround item.
+#   "Use": set false if you don't want to use surrounding.
+#   "Name": name of surrounding item.
+#   "Icon": material of surrounding item.
+#   "Details": lore of surrounding item.
+# "Back_Main": the button back to the main menu.
+# ==================================================================================
+Sub_Menu:
+  Size: 3
+  Title: "&9&lQuests list{page}"
+  Surround:
+    Use: true
+    Name: "Line!"
+    Icon: "gray_stained_glass_pane"
+    Details:
+      - "This is only surround line"
+    Glowing: true
+  Back_Main:
+    Position: "3;9"
+    Name: "Return!"
+    Icon: "barrier"
+    Details:
+      - "Back to the categories menu!"
+    Glowing: true
+  Next_Page:
+    Position: "3;7"
+    Name: "Click to next page"
+    Icon: "yellow_stained_glass_pane"
+    Details:
+      - ""
+    Glowing: true
+  Last_Page:
+    Position: "3;3"
+    Name: "Click to last page"
+    Icon: "yellow_stained_glass_pane"
+    Details:
+      - ""
+    Glowing: true
+  No_Next_Page:
+    Position: "3;7"
+    Name: "No next page"
+    Icon: "red_stained_glass_pane"
+    Details:
+      - ""
+    Glowing: true
+  No_Last_Page:
+    Position: "3;3"
+    Name: "No last page"
+    Icon: "red_stained_glass_pane"
+    Details:
+      - ""
+    Glowing: true
+
+# ----------------------------------------------------------------------------------------------------------
+
+# ---------------------------------------Cancel Menu config-------------------------------------------------
+# "Size": the row of cancel menu.
+# "Title" the title showed of cancel menu.
+# "Message": the message send to the player if successfully cancel.
+# "Yes_Button": config the yes button.
+#   "Position": the position of yes button. Separate row and column by ";".
+#   "Name": the name of this item.
+#   "Icon": the material of this item.
+#   "Details": the lore of this item.
+# "No_Button": config the no button, the same as yes button.
+Cancel_Menu:
+  Size: 1
+  Title: '&5&lCancel {quest_name}&5&l?'
+  Message: "&6&lSuccessful cancel quest {quest_name}"
+  Yes_Button:
+    Position: "1;4"
+    Name: "&a&lYes, I want to cancel the quest"
+    Icon: "green_wool"
+    Details:
+      - "&c&lThis action will remove all progress"
+      - "&c&lThink carefully!"
+  No_Button:
+    Position: "1;6"
+    Name: "&c&lNo, I don't want to cancel the quest"
+    Icon: "red_wool"
+    Details:
+      - "&6&lYou will finish it one day"
+# ---------------------------------------------------------------------------------------------------------
+
+# Do not edit it
+Version: 1

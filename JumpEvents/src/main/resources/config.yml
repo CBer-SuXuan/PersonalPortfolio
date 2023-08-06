@@ -1,0 +1,26 @@
+# 每一次跳跃是否随机生成的生物，所有生物(1.12.2)：https://helpch.at/docs/1.12.2/org/bukkit/potion/PotionEffectType.html
+Summon_mob:
+  Use: true
+  List:
+    - "creeper"
+    - "zombie"
+
+# 每一次跳跃是否随机生成TNT
+Summon_TNT: true
+
+# 每一次跳跃是否随机给予药水效果，所有药水(1.12.2)：https://helpch.at/docs/1.12.2/org/bukkit/potion/PotionType.html
+# 格式：药水名称;等级;时间
+Give_potion:
+  Use: true
+  List:
+    - "JUMP;10;2"
+
+# 每一次跳跃是否随机给予物品
+# 格式：物品名;数量
+Give_item:
+  Use: true
+  List:
+    - "diamond;1"
+
+# 不要修改
+Version: 1
