@@ -4,7 +4,28 @@ This repository contains the plugins that I have made so far. Although they are 
 
 ## Personal description
 
-My name is SuXuan, a Chinese nickname. My IGN(in game name) is CBer_SuXuan. Age is 22, and my Discord is cber_suxuan. I have made plugins for two years and I think I still need to study hard on plugins. From my start of making plugins, many server owners and other people helped me a lot. I like coding and I want become a developer one day in future. These plugins are only made by me on my spare time. I can make plugins for you free or paid, just depend on you. I don't care about how much I can get from making plugins because I love it. Meanwhile, my learning ability is very good that I can learn something very fast. If you think my portfolio is good and think I can code for you, I would very appreciate it. By the way, because I have a very very important examination at the end of 2023, so I can't spend lots of time on making plugins. Please forgive me and nice to meet you!
+Hello dear reader,
+My name is SuXuan and I am 22 year old Minecraft Developer. SuXuan is my Chinese nickname I go by on the public Internet.
+
+Through my career of two years as a java plugin developer for Minecraft, I have made various plugins. Even though I do have a couple years of coding behind me, every day is a new day for me where I can learn more things when it comes to plugin coding.
+
+I did receive a lot of help from previous server owners and projects, where I used their feedbacks to improve my skills in java. I like coding and I want to become a full fledged java developer one day in future.
+
+The plugins I code both as well in the past and present are made in my free time. Thus I am limited on how much free time I have to spend in regards coding a plugin and accepting a plugin request.
+
+I offer my coding services for both free or paid services. I am not into plugin development for the money, so I don't mind if I get paid. Why? Because coding the plugins is a passion of mine. I enjoy creating a plugin that satisfy the server owner while also gaining more experience.
+
+A positive side of mine being a plugin developer is that my ability to adapt and learn is on a high level. This means I learn quickly to incorporate and work with things that are new for me and my own expertise.
+
+If you take a look at my portfolio and think I can create things that satisfies your thoughts, then I would love to create and work on a project for you. Feel free to contact me and I will see if I can help you out.
+
+Further important note: 
+I don't have a lot of free time left to spend working on plugins until the end of 2023, because of a very important upcoming test examination. Accepting new project/plugin requests will be limited until then. My excuse for the hiatus that may cause.
+
+Extra information:
+
+- My IGN (in game name) is: CBer_SuXuan.
+- Discord name is: cber_suxuan.
 
 ## Details are as followed:
 
