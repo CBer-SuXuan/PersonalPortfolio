@@ -46,7 +46,7 @@ Extra information:
 
 ### Large plugins:
 
-- **QuestsPlugin**: This plugin is for quests in server and it is highly customizable. You can customize different quests with its name, actions, rewards and so on. And the menu of categories and quests can also be customized! You can change button name, icon**(support HeadDatabase plugin!)**, lore, glowing in config.yml. I am going to make more details and publish it to the Internet!
+- **QuestsPlugin**: This plugin is for quests in server and it is highly customizable. You can customize different quests with its name, actions, rewards and so on. And the menu of categories and quests can also be customized! You can change button name, icon**(support HeadDatabase plugin!)**, lore, glowing in config.yml.
 - **VillagerShop**: 
 
 ## Other I want to say
@@ -54,5 +54,3 @@ Extra information:
 Because I am Chinese, some plugins contain Chinese character. If you can't understand, contact me.
 
 If you want to know **more detail** about some of these plugins, you can also contact me!
-
-With many hard working that I can make lots of plugins. 
