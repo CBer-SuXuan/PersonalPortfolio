@@ -47,7 +47,7 @@ Extra information:
 ### Large plugins:
 
 - **QuestsPlugin**: This plugin is for quests in server and it is highly customizable. You can customize different quests with its name, actions, rewards and so on. And the menu of categories and quests can also be customized! You can change button name, icon**(support HeadDatabase plugin!)**, lore, glowing in config.yml.
-- **VillagerShop**: 
+- **VillagerShop**: Still making. Stuff can make a shop easily and create trades of this shop by menu. Will extend more details in the future.
 
 ## Other I want to say
 
