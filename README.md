@@ -19,9 +19,6 @@ A positive side of mine being a plugin developer is that my ability to adapt and
 
 If you take a look at my portfolio and think I can create things that satisfies your thoughts, then I would love to create and work on a project for you. Feel free to contact me and I will see if I can help you out.
 
-Further important note: 
-I don't have a lot of free time left to spend working on plugins until the end of 2023, because of a very important upcoming test examination. Accepting new project/plugin requests will be limited until then. My excuse for the hiatus that may cause.
-
 Extra information:
 
 - My IGN (in game name) is: CBer_SuXuan.
