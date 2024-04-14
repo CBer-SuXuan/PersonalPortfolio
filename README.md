@@ -21,8 +21,8 @@ If you take a look at my portfolio and think I can create things that satisfies 
 
 Extra information:
 
-- My IGN (in game name) is: CBer_SuXuan.
-- Discord name is: cber_suxuan.
+- My IGN (in game name) is: SuXuan_Dev.
+- Discord name is: suxuan_dev.
 
 ## Details are as followed:
 
